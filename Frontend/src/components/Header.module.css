@@ -1,0 +1,23 @@
+.header
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-20px;
+    /* margin-bottom:10px; */
+    height:125px;
+    /* text-align: center; */
+    /* background-color:rgb(247, 46, 46); */
+    /* background-color:rgb(245, 186, 67); */
+    /* background-color: rgb(230, 161, 33);  */
+    /* background-color:#C80036;  */
+    background-color: #f02e2e;
+    /* background-color: rgb(120, 103, 244); */
+    border-radius: 5px;
+    color:white;
+}
+.header h1
+{
+    font-size:60px;
+    /* color:white; */
+}

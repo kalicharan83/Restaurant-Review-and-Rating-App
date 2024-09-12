@@ -1,0 +1,52 @@
+.restaurantContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:3px;
+    border:2px solid white;
+    border-radius:5px;
+    padding:5px;
+    background-color: #dedcff;
+}
+.restaurantContainer img
+{
+    width:350px;
+    border-radius: 5px;
+}
+.card :hover
+{
+    transform: scale(1.01);
+    /* background-color: rgb(230, 161, 33); */
+    /* background-color: #86595a; */
+    background-color: #56423e;
+    color:white;
+    /* transition-duration: 1s; */
+}
+ a
+{
+    text-decoration: none;
+    color:black;
+}
+h3
+{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 300;
+  font-style: normal;
+  /* font-family: "Poppins",sans-serif; */
+}
+.details
+{
+    padding:10px;
+}
+.details .name
+{
+    font-size: larger;
+}
+.positive
+{
+    color:rgb(66, 236, 66);
+}
+.negative
+{
+    color:red;
+}

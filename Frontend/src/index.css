@@ -1,0 +1,14 @@
+body
+{
+    /* background-color: grey; */
+    /* background-color: #f5f3f2; */
+    background-color: #e2c7c8;
+    /* background-color: #f3eed9; */
+    color:#050315;
+    font-family: "Poppins",sans-serif;
+}
+ul li
+{
+    /* text */
+    list-style-type: none;
+}

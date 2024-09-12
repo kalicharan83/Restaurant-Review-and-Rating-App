@@ -1,0 +1,132 @@
+.container
+{
+    width:80%;
+    margin:0 auto;
+    background-color: white;
+    padding:20px;
+    height:80%;
+    border-radius:5px;
+}
+.page
+{
+    height:100%;
+    /* background-image:url("https://www.traveldailymedia.com/assets/2023/07/shutterstock_1435375889.jpg") ; */
+    /* background-color: #808080; */
+    /* background-color: #f3eed9; */
+    /* background-color: #f5f3f2; */
+    background-color: #e2c7c8;
+    /* background-color: #0C1844; */
+    padding-top:20px;
+}
+.note 
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: large;
+}
+.basicDetails
+{
+    display:flex;
+    flex-direction: row;
+}
+.basicDetails img
+{
+    border-radius:5px;
+}
+.mainDetails
+{
+    margin-left:10px;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.navigationButtons
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigationButtons button
+{
+    border:none;
+    height:30px;
+    width:150px;
+    margin:20px 10px;
+    font-size:medium;
+    border-radius:5px;
+}
+.navigationButtons button:hover
+{
+    background-color: #56423e;
+    color:white;
+    transform: scale(1.05);
+}
+.content
+{
+    margin:0 auto;
+}
+.positive
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color:white;
+    height:20px;
+    width:50px;
+    border-radius:5px;
+}
+.negative
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:white;
+    height:20px;
+    width:50px;
+    border-radius:5px;
+}
+.active
+{
+    /* background-color: rgb(230, 161, 33); */
+    background-color: #56423e;
+    color:white;
+    height:50px;
+    width:170px;
+    transform: scale(1.01);
+}
+.form
+{
+    width:400px;
+}
+.form label
+{
+    width: 100%;
+}
+.form input,.input
+{
+    width:100%;
+    padding:5px;
+}
+.form button
+{
+    height:30px;
+    width:140px;
+    background-color: #dedcff;
+    border-radius:5px;
+    border:none;
+    margin:0 auto;
+}
+.form button:hover
+{
+    background-color: #56423e;
+    color:white;
+    transform: scale(1.05);
+}
+.userinput
+{
+    margin:5px;
+}

@@ -1,0 +1,97 @@
+.home
+{
+    display: flex;
+}
+.filter
+{
+    width:15%;
+}
+.restaurants
+{
+    width:85%;
+    /* animation-name: slide; */
+}
+.no
+{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.searchContainer
+{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+}
+.searchContainer div
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search
+{
+    border-radius:5px;
+    height:30px;
+    width:300px;
+    margin-bottom:10px;
+    padding:5px;
+    border:none;
+}
+.searchButton
+{
+    border:none;
+    height:30px;
+    width:70px;
+    padding:5px;
+}
+.search :hover
+{
+    background-color: rgb(230, 161, 33);
+}
+.no img
+{
+    border-radius:5px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.load {
+	width: 100px;
+	height: 100px;
+	margin: 110px auto 0;
+	border:solid 10px #f02e2e;
+	border-radius: 50%;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	 -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    	
+    	 transition: all 0.5s ease-in;
+    animation-name:             rotate; 
+    animation-duration:         1.0s; 
+    animation-iteration-count:  infinite;
+    animation-timing-function: linear; 
+}
